@@ -1,7 +1,7 @@
 # Change these
 server 'cvps6983637262.hostwindsdns.com', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@example.com:robkeys/rails-blog.git'
+set :repo_url,        'git@github.com:robkeys/rails-blog.git'
 set :application,     'rails-blog'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
